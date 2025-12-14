@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import pickle
@@ -5,11 +6,11 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    with open(r"C:\Users\Lenovo\Desktop\Phase-1 Projects\House Price Predictior Model\Models\house_price_model.pkl.pkl",'rb') as f:
-        model = pickle.load(f)
-    return model
-model = load_model()
+    base_dir = os.path.dirname(__file__)
+    model_path = os.path.join(base_dir, "house_price_model.pkl")
 
+    with open(model_path, "rb") as f:
+        return pickle.load(f)
 st.title("🏠 House Price Predictor")
 st.write("Enter house details to get an estimated price")
 col1, col2 = st.columns(2)
