@@ -77,7 +77,6 @@ streamlit run app.py
    - Size in square feet
    - Number of bedrooms and bathrooms
    - Age of the house
-   - Garage spaces
    - Location quality (1-10 scale)
 
 2. **Click "Predict Price"**

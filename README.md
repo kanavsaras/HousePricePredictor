@@ -8,7 +8,7 @@ A machine learning web application that predicts house prices based on key featu
 
 ## 🚀 Live Demo
 
-**[Try the app here!](https://house-price-predictor-hc77ap9xyycvmt4dheyn5e.streamlit.app/)**
+**[Try the app here!](https://housepricepredictor-h4bavwkg9dnrajclotiuqp.streamlit.app/)**
 
 ## 📊 Features
 
@@ -53,7 +53,8 @@ house-price-predictor/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/kanavsaras/house-price-predictor.git
+git clone https://github.com/kanavsaras/HousePricePredictor.git
+
 cd house-price-predictor
 ```
 
@@ -68,7 +69,7 @@ streamlit run app.py
 ```
 
 4. **Open your browser**
-- The app will automatically open at `http://localhost:8501`
+- The app will automatically open at `https://housepricepredictor-h4bavwkg9dnrajclotiuqp.streamlit.app/`
 
 ## 🎯 How to Use
 
@@ -76,7 +77,6 @@ streamlit run app.py
    - Size in square feet
    - Number of bedrooms and bathrooms
    - Age of the house
-   - Garage spaces
    - Location quality (1-10 scale)
 
 2. **Click "Predict Price"**
@@ -110,9 +110,7 @@ This project taught me:
 - [ ] Add user authentication for saving predictions
 - [ ] Implement A/B testing for model versions
 
-## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
@@ -122,7 +120,7 @@ Contributions, issues, and feature requests are welcome!
 
 **Your Name** - [kanavsaras@gmail.com](mailto:kanavsaras@gmail.com)
 
-Project Link: [https://github.com/kanavsaras/house-price-predictor](https://github.com/kanavsaras/house-price-predictor)
+Project Link: [https://housepricepredictor-h4bavwkg9dnrajclotiuqp.streamlit.app/](https://github.com/kanavsaras/house-price-predictor)
 
 ---
 
