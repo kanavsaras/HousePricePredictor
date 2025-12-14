@@ -11,6 +11,7 @@ def load_model():
 
     with open(model_path, "rb") as f:
         return pickle.load(f)
+model = load_model()
 st.title("🏠 House Price Predictor")
 st.write("Enter house details to get an estimated price")
 col1, col2 = st.columns(2)
