@@ -5,7 +5,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    with open(r"C:\Users\Lenovo\Desktop\Phase-1 Projects\House Price Predictior Model\Notebooks\house_price_model.pkl",'rb') as f:
+    with open(r"C:\Users\Lenovo\Desktop\Phase-1 Projects\House Price Predictior Model\Models\house_price_model.pkl",'rb') as f:
         model = pickle.load(f)
     return model
 model = load_model()
